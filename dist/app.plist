@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://www.exesstrading.pro/app.ipa</string>
+					<string>https://www.exesstrade.com/app.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,15 +19,15 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://dl.signv4.com/temp/Exnesscom.phamloc01011991vip.Exness/icon.png</string>
+					<string>https://signapp.dev/temp/OEo1elUrY3RIZm80a1QxWExLMm5pUT09/icon.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.phamloc01011991vip.Exness</string>
+				<string>com.phamloc01011991vip.Exness1</string>
 				<key>bundle-version</key>
-				<string></string>
+				<string>1.0.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
