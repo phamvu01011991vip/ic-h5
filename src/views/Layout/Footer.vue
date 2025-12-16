@@ -28,7 +28,7 @@ onUnmounted(() => {
     <div class="footer-tab" :data-theme="theme">
       <ul class="footer-menu">
         <li class="menu-item">
-          <RouterLink to="/" class=" ft home">
+          <RouterLink to="/" class="btn ft home">
             <div>
               <i v-if="router.currentRoute.value.path != '/'" class='bx bx-home' ></i>
               <i v-else class='bx bxs-home' ></i>
@@ -37,7 +37,7 @@ onUnmounted(() => {
           </RouterLink>
         </li>
         <li class="menu-item">
-          <RouterLink :to="{ name: 'market' }" class=" ft market">
+          <RouterLink :to="{ name: 'market' }" class="btn ft market">
             <div>
               <i v-if="router.currentRoute.value.path != '/market'" class='bx bx-candles' ></i>
               <i v-else class='bx bx-candles' ></i>
@@ -46,7 +46,7 @@ onUnmounted(() => {
           </RouterLink>
         </li>
         <li class="menu-item">
-          <RouterLink to="/buy" class=" ft buy">
+          <RouterLink to="/buy" class="btn ft buy">
             <div>
               <i class='bx bx-transfer bx-rotate-90' ></i>
             </div>
@@ -54,7 +54,7 @@ onUnmounted(() => {
           </RouterLink>
         </li>
         <li class="menu-item">
-          <RouterLink to="/invest" class=" ft invest">
+          <RouterLink to="/invest" class="btn ft invest">
             <div>
               <i v-if="router.currentRoute.value.path != '/invest'" class='bx bx-bolt-circle' ></i>
               <i v-else class='bx bxs-bolt-circle' ></i>
@@ -63,7 +63,7 @@ onUnmounted(() => {
           </RouterLink>
         </li>
         <li class="menu-item">
-          <RouterLink to="/person" class=" ft person">
+          <RouterLink to="/person" class="btn ft person">
             <div>
               <i v-if="router.currentRoute.value.path != '/person'" class='bx bx-wallet-alt' ></i>
               <i v-else class='bx bxs-wallet-alt' ></i>
