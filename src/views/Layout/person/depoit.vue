@@ -22,6 +22,10 @@ async function getPriceUSD() {
   priceUSD.value = data.rates.VND
 }
 
+import { OpenPopup } from "../../../utils/plugin";
+function showCshkPluin() {
+  OpenPopup();
+}
 const code = ref('')
 const datetime = ref('')
 async function depointAmount() {
@@ -99,6 +103,9 @@ onMounted(() => {
         <div class="ct">
           <div class="back"><i class='bx bx-left-arrow-alt' @click="closePopup"></i></div>
           <h4>{{ languagePack.person_depoint_title }}</h4>
+          <div class="cskh" @click="showCshkPluin()">
+            <i class="bx bx-headphone"></i>
+          </div>
         </div>
       </div>
       <div class="popbuy-center">
@@ -238,6 +245,15 @@ color: var(--text-sub-color);
 
 .popbuy-content .top .ct {
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popbuy-content .top .ct .cskh i {
+  font-size: 21px;
+}
+.popbuy-content .top .ct .cskh {
+  margin-right: 5px;
 }
 
 .popbuy-content .top .ct h4 {
