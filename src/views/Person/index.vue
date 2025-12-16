@@ -139,7 +139,8 @@ onMounted(async () => {
           <span class="vnd"> {{ isHiddenAmount ? '≈ ' + formatVnd((parseFloat(userLogined.balance) + parseFloat(farmingAmount))*priceUSD): '******' }} </span>
         </div>
         <chart :listAnnalys="listAnnalys.list"/>
-        <span class="note">{{ languagePack.person_index_last_update }}: {{ changeDate(listAnnalys.updateAt) }}</span>
+        <span class="note">Dữ liệu được cập nhật vào lúc 00:00 mỗi ngày</span>
+        <!-- <span class="note">{{ languagePack.person_index_last_update }}: {{ changeDate(listAnnalys.updateAt) }}</span> -->
       </div>
       <div class="functions">
         <div class="item" @click="showDepoit=true">
