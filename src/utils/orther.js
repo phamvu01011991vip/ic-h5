@@ -42,7 +42,7 @@ export function onLoadIcon() {
           document.getElementsByClassName('home')[0].classList.add('show')
         } catch (error) {}
       }
-      document.getElementsByClassName('show')[0].style.color = '#faa600'
+      // document.getElementsByClassName('show')[0].style.color = '#faa600'
       return;
     }catch(err){
       console.log(err)

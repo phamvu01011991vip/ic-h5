@@ -95,9 +95,9 @@ ul {
 #widget-container {
   border: 1px solid var(--border-color);
 }
-/* .menu-item a {
+.menu-item a {
   color: #fff ;
 }
 .router-link-active {
   color: rgb(250, 166, 0) !important;
-} */
+}
