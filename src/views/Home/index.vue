@@ -906,7 +906,7 @@ a.item {
 /* contain */
 .contain {
   background-color: var(--background-color);
-  padding: 40px 12px 10px 12px;
+  padding: 45px 12px 10px 12px;
 }
 
 .main-content {
