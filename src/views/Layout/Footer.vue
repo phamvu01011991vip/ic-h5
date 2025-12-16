@@ -28,7 +28,7 @@ onUnmounted(() => {
     <div class="footer-tab" :data-theme="theme">
       <ul class="footer-menu">
         <li class="menu-item">
-          <RouterLink to="/" class="btn ft home">
+          <RouterLink to="/" class="btn ft home show">
             <div>
               <i v-if="router.currentRoute.value.path != '/'" class='bx bx-home' ></i>
               <i v-else class='bx bxs-home' ></i>
@@ -134,4 +134,6 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+
 </style>
