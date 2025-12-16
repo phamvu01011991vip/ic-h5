@@ -139,7 +139,6 @@ onMounted(async () => {
           <span class="vnd"> {{ isHiddenAmount ? '≈ ' + formatVnd((parseFloat(userLogined.balance) + parseFloat(farmingAmount))*priceUSD): '******' }} </span>
         </div>
         <chart :listAnnalys="listAnnalys.list"/>
-        {{listAnnalys}}
         <span class="note">{{ languagePack.person_index_last_update }}: {{ changeDate(listAnnalys.updateAt) }}</span>
       </div>
       <div class="functions">
