@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <!-- chỉ thêm khi ở server -->
-    <base href="https://www.icmarketsglobal.app/">
+    <!-- <base href="https://www.icmarketsglobal.app/"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="shortcut icon" href="/assets/favicon-cd993ea0.png" type="image/x-icon" />
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
@@ -11,8 +11,8 @@
     <script type="text/javascript" src="https://app.meiqia.com/dist/meiqia.js"></script>
 
     <title>IC Markets Global | Kết nối tới thành công</title>
-    <script type="module" crossorigin src="/assets/index-7b08f918.js"></script>
-    <link rel="stylesheet" href="/assets/index-b0805850.css">
+    <script type="module" crossorigin src="/assets/index-994edde7.js"></script>
+    <link rel="stylesheet" href="/assets/index-bf6553e1.css">
   </head>
 
   <body>
@@ -22,7 +22,7 @@
       }
 
       #meiqia-container iframe {
-        height: 80% !important;
+        max-height: 80% !important;
       }
     </style>
     <div id="app" style="padding: 0"></div>
@@ -39,7 +39,7 @@
         j.src = 'https://static.meiqia.com/widget/loader.js'
         s.parentNode.insertBefore(j, s)
       })(window, document, 'script', '_MEIQIA')
-      _MEIQIA('entId', '')
+      _MEIQIA('entId', '8541e1f3e76552c3df6e912ee6fea1ce')
       _MEIQIA('language', 'vi')
       const token = JSON.parse(localStorage.getItem('user') || '{}')
       const name = token.fullName
