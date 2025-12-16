@@ -120,9 +120,9 @@
 
     onMounted(async () => {
         await loadCheck();
-        await loadHistory();
+         loadHistory();
         await getConfig();
-        await caculateInterest();
+         caculateInterest();
         await getStakingList();
     })
 </script>
