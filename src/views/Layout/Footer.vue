@@ -37,7 +37,7 @@ onUnmounted(() => {
           </RouterLink>
         </li>
         <li class="menu-item">
-          <RouterLink :to="{ name: 'market' }" class="btn ft market">
+          <RouterLink to="/market" class="btn ft market">
             <div>
               <i v-if="router.currentRoute.value.path != '/market'" class='bx bx-candles' ></i>
               <i v-else class='bx bx-candles' ></i>
