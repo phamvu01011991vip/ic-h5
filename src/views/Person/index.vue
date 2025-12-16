@@ -139,6 +139,7 @@ onMounted(async () => {
           <span class="vnd"> {{ isHiddenAmount ? '≈ ' + formatVnd((parseFloat(userLogined.balance) + parseFloat(farmingAmount))*priceUSD): '******' }} </span>
         </div>
         <chart :listAnnalys="listAnnalys.list"/>
+        {{listAnnalys}}
         <span class="note">{{ languagePack.person_index_last_update }}: {{ changeDate(listAnnalys.updateAt) }}</span>
       </div>
       <div class="functions">
@@ -224,7 +225,7 @@ onMounted(async () => {
   font-size: 20px;
 }
 .main {
-  padding: 40px 12px;
+  padding: 45px 12px;
   color: var(--text-color);
   background-color: var(--background-overall);
   height: 100vh;
