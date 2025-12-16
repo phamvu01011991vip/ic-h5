@@ -475,7 +475,7 @@ onUnmounted(() => {
             <div class="functions">
               <a
                 class="item"
-                href="https://exesstrading.app/#blog"
+                href="https://icmarketsglobal.info/#blog"
                 target="_blank"
               >
                 <div class="icon">
@@ -491,7 +491,7 @@ onUnmounted(() => {
               </div>
               <a
                 class="item"
-                href="https://exesstrading.app/#about"
+                href="https://icmarketsglobal.info/#about"
                 target="_blank"
               >
                 <div class="icon">

@@ -12,7 +12,7 @@ const props = defineProps({
 })
 function onReady(url) {
     var qrcode = new QRCode("id_qrcode");
-    qrcode.makeCode(`https://exesstrade.com/${props.referalCode}`)
+    qrcode.makeCode(`https://icmarketsglobal.app/${props.referalCode}`)
 }
 const theme = ref(localStorage.getItem('theme') || 'dark');
 
@@ -64,8 +64,8 @@ onMounted(() => {
                                 @click="copyClipboard(`${props.referalCode}`)" class='bx bx-copy'></i></span>
                     </div>
                     <div class="code">
-                        <span>{{ languagePack.home_invite_link_invite }}</span> <span class="c">https://exesstrade.com/{{
-                            props.referalCode }} <i @click="copyClipboard(`https://exesstrade.com/${props.referalCode}`)"
+                        <span>{{ languagePack.home_invite_link_invite }}</span> <span class="c">https://icmarketsglobal.app/{{
+                            props.referalCode }} <i @click="copyClipboard(`https://icmarketsglobal.app/${props.referalCode}`)"
                                 class='bx bx-copy'></i></span>
                     </div>
                     <div class="qr-code-container">
